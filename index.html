@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Seguimiento</title>
+    <!-- Aquí conectaremos nuestro archivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Reporte de Seguimiento de Proyecto</h1>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>1. Datos Generales del Proyecto</h2>
+                <p><strong>Código Único de Inversión:</strong> <span id="codigoUnico"></span></p>
+                <p><strong>Nombre del Proyecto:</strong> <span id="nombreProyecto"></span></p>
+                <p><strong>Monto de Inversión Viable:</strong> S/ <span id="montoInversion"></span></p>
+                <p><strong>Fecha del Reporte:</strong> <span id="fechaReporte"></span></p>
+            </section>
+
+            <section class="card">
+                <h2>2. Avance del Componente Principal</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tarea</th>
+                            <th>Responsable</th>
+                            <th>Estado</th>
+                            <th>% Avance</th>
+                        </tr>
+                    </thead>
+                    <!-- El cuerpo de la tabla se llenará con JavaScript -->
+                    <tbody id="tablaAvance">
+                    </tbody>
+                </table>
+            </section>
+             <section class="card">
+                <h2>3. Comentarios y Próximos Pasos</h2>
+                <p id="comentarios"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Reporte generado automáticamente.</p>
+        </footer>
+    </div>
+
+    <!-- Aquí conectaremos nuestro archivo JavaScript. IMPORTANTE: va al final -->
+    <script src="script.js"></script>
+</body>
+</html>

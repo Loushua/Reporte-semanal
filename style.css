@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenido */
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: #005a9e; /* Un azul corporativo */
+    text-align: center;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 10px;
+}
+
+/* Estilo de las tarjetas/secciones */
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #005a9e;
+    margin-top: 0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+}
+
+p strong {
+    color: #555;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Une los bordes de las celdas */
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead th {
+    background-color: #005a9e;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Pone las filas pares de un color gris claro */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #888;
+}
